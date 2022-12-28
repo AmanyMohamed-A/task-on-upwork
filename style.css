@@ -1,0 +1,102 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*small screen*/
+@media(min-width:768px) {
+
+    .container{
+        width:750;
+        overflow: hidden;
+        height:680;
+    }
+ }
+/*medium*/
+@media(min-width:992) {
+
+    .container{
+        width: 970px;
+        overflow: hidden;
+       
+    }
+    
+}
+/*large*/
+@media(min-width:1200px) {
+    .container{
+        width: 1170px;
+        overflow: hidden;
+    }}
+
+.container{
+    
+
+    display: flex;
+    position: relative;
+    flex-direction:row;
+    justify-content: space-between;
+    justify-content: center;
+  
+    width: 100%;
+    height: 625px;
+    overflow: hidden;
+
+   
+
+}
+.Ferrari{
+    background-color: #ad2328;
+    width: 50%;
+    height: 100%;
+    position:absolute;
+    left: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1;
+   
+    font-family: Arial;
+    text-decoration: underline;
+    overflow: hidden;
+
+
+}
+.Ferrari a{
+
+    color: yellow;
+}
+.Juventus{
+  
+    width: 50%;
+    height: 100%;
+    position:absolute;
+    right: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1;
+    font-family: Arial;
+     text-decoration: underline;
+     overflow: hidden;
+
+}
+.Juventus a{
+    color: black;
+ 
+}
+
+
+ 
+    
+
+   
+   
+
+   
+
+
